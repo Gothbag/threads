@@ -1,0 +1,47 @@
+.checkbox-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  width: 100%;
+
+  &__title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+
+  &__item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &__input {
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+  }
+
+  &__label {
+    font-size: 16px;
+    color: #333;
+  }
+
+  @media (max-width: 768px) {
+    &__item {
+      &__input {
+        margin-right: 0;
+        margin-bottom: 5px;
+      }
+
+      &__label {
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
