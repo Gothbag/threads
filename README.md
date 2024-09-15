@@ -1,4 +1,4 @@
-# 🚀 Welcome to your new awesome project!
+# threads
 
 This is a project that loads a thread.
 
